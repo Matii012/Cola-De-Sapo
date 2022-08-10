@@ -160,6 +160,8 @@ hr.divider-light {
 }
 
 .btn{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   text-align: center;
   font-family: cream;
 }
@@ -195,7 +197,18 @@ hr.divider-light {
 }
 
 .caja3{
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/IMG_0911.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.caja3 .text4{
+  padding-top: 2rem;
+  font-family: evogria;
+  font-style: italic;
+  color: wheat;
+  text-shadow: 2px 2px 5px black;
 }
 
 .foto img{
@@ -204,18 +217,87 @@ hr.divider-light {
   border-radius: 50%;
 }
 
-.texto a{
+.nombre a{
   text-decoration: none;
-  color: #333;
+  color: white;
   text-shadow: 0px 0px 10px black;
+  font-style: italic;
 }
 
-.texto a:hover{
+.nombre a:hover{
   color: aqua;
 }
 
+.nombre2 a{
+  color: violet;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px black;
+  font-style: italic;
+}
+
+.nombre2 a:hover{
+  color: aqua;
+}
+
+.nombre3 a{
+  color: orangered;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px black;
+  font-style: italic;
+}
+
+.nombre3 a:hover{
+  color: aqua;
+}
+
+.nombre4 a{
+  color: black;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px black;
+  font-style: italic;
+}
+
+.nombre4 a:hover{
+  color: aqua;
+}
+
+.color2 a{
+  color: rgb(51, 69, 226);
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px black;
+  text-decoration: none;
+}
+
+.color2 a:hover{
+  color: aqua;
+}
+
+.texto2{
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.color{
+  color: springgreen;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.color2{
+  color: rgb(33, 51, 218);
+  font-style: italic;
+  font-weight: bold;
+}
+
+.color3{
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 0px 0px 2px black;
+}
+
 .contenedor2{
-  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
